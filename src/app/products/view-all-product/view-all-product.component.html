@@ -27,7 +27,6 @@
               <h5>{{ product.price | currency }}</h5>
               <p class="card-text">{{ product.description }}</p>
           </div>
-          <!-- <div class="card-footer"><small class="text-muted">★ ★ ★ ★ ☆</small></div> -->
           <div class="card-footer"><small class="text-muted star">{{starFull.repeat(product.rating)}}{{starEmpty.repeat(5 - product.rating)}}</small></div>
       </div>
   </div>

@@ -35,7 +35,7 @@ export class ProductService {
   }
 
   searchCategoryProduct(categoryId: number) {
-    return this.http.get(this.apiUrl + '/category=' + categoryId);
+    return this.http.get<Product[]>(this.apiUrl + '/products?category_id=' + categoryId);
   }
 
   searchDateProduct(date: any) {
