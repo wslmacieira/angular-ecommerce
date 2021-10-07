@@ -1,0 +1,40 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "produto 1",
+      "category_id": 2,
+      "description": "description here",
+      "price": 300,
+      "is_available": true,
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "warranty": 1
+    },
+    {
+      "id": 2,
+      "name": "produto 2",
+      "category_id": 3,
+      "description": "description here",
+      "price": 100,
+      "is_available": true,
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "agg shop",
+      "warranty": 1
+    },
+    {
+      "id": 3,
+      "name": "produto 3",
+      "category_id": 3,
+      "description": "description here",
+      "price": 250,
+      "is_available": true,
+      "rating": 5,
+      "review": 150,
+      "vendor_name": "ayc shop",
+      "warranty": 1
+    }
+  ]
+}
